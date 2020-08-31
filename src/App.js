@@ -3,7 +3,7 @@ import './App.css';
 import ExpenseList from './components/ExpenseList'
 import ExpenseForm from './components/ExpenseForm'
 import Alert from './components/Alert'
-import {uuid} from 'uuidv4'
+import {v4 as uuid} from 'uuid'
 
 
 const initialExpenses = [
