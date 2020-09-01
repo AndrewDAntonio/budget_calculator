@@ -6,7 +6,7 @@ export const ExpenseList = ({expenses}) => {
 
     return (
         <>
-            <ul clasName='list'>
+            <ul className='list'>
                 {expenses.map((expense) =>  {
                     return <Item key={expense.id} expense={expense}/>
                 })}
